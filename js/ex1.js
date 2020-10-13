@@ -4,8 +4,8 @@
 console.log("Baron's Output from HW 6 Question 1");
 
 const bodyNodes = () => { return 'toto'; 
-})
-}
+});
+
 
 bodyNodes.toString()
 
