@@ -3,7 +3,8 @@
 */
 console.log("Baron's Output from HW 6 Question 1");
 
-const bodyNodes = () => { return 'toto'; 
+const bodyNodes = () => { 
+    return 'toto'; 
 });
 
 
