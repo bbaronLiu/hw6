@@ -7,7 +7,7 @@ const displayText400 = () => {
     document.getElementsByName('400level').forEach(function(ele, idx) {
         console.log(ele)
 
-    )};
+    };
 
 displayText400();
 
@@ -16,7 +16,7 @@ const paragraphBoldYellow = () => {
         ele.style.fontweight = 'bold';
         ele.style.fontweight = "yellow";
 
-    )};
+    };
 
 paragraphBoldYellow();
 
