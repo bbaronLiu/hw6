@@ -15,3 +15,12 @@ const words = [{
     definition: "figure of speech that juxtaposes elements that appear to be contradictory"
   }];
   
+  for (i = 0; i< words.length; i++) {
+    var myobj=  words[i];
+    for (var property in myobj) {
+        parsed += property + ": " + myobj[property] + "\n";          
+    }
+}                           
+$("#display").val(parsed);   
+
+document.getElementById("content").innerHTML = 'words';
