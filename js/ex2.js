@@ -4,16 +4,19 @@ Question 2 JavaScript code
 console.log("Baron's Output from HW 6 Question 2");
 
 const displayText400 = () => {
-    var x = document.getElementById("400level").textContent;
-    console.log(x)
-};
+    document.getElementsByName('400level').forEach(function(ele, idx) {
+        console.log(ele)
+
+    )};
 
 displayText400();
 
 const paragraphBoldYellow = () => {
-    document.getElementById("P").style.fontWeight = "bold";
-    document.getElementById("P").style.backgroundColor = "yellow";
-};
+    document.getElementsByName('submit').forEach(function(ele, idx) {
+        ele.style.fontweight = 'bold';
+        ele.style.fontweight = "yellow";
+
+    )};
 
 paragraphBoldYellow();
 
@@ -26,3 +29,5 @@ const addLink = () => {
     a.href = "https://www.csulb.edu/college-of-business";
     document.getElementById("D").appendChild(a)
 };
+
+addLink();
