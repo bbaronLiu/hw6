@@ -4,15 +4,15 @@ Question 2 JavaScript code
 console.log("Baron's Output from HW 6 Question 2");
 
 const displayText400 = () => {
-    document.getElementsByName('400level').forEach(function(ele, idx) {
-        console.log(ele))
+    document.getElementsByName('400level').forEach = (ele, idx) => {
+        console.log(ele)
     }
 };
 
 displayText400();
 
 const paragraphBoldYellow = () => {
-    document.getElementsByName('submit').forEach(function(ele, idx) {
+    document.getElementsByName('submit').forEach = (ele, idx) => {
         ele.style.fontweight = 'bold';
         ele.style.fontweight = "yellow";)
     }
