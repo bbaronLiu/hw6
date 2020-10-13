@@ -8,7 +8,7 @@ const displayText400 = () => {
         four = document.getElementsByTagName("400level");
     };
     let y = function() {
-        for (var i=0; i<bold_Items.length; i++)
+        for (var i=0; i<x.length; i++)
         {
             console.log(x[i]);
         }
@@ -23,7 +23,7 @@ const paragraphBoldYellow = () => {
         four = document.getElementsByTagName("D");
     }
     let y = function() {
-        for (var i=0; i<bold_Items.length; i++)
+        for (var i=0; i<x.length; i++)
         {
             x[i].style.fontweight = "bold";
             x[i].style.fontweight = "yellow";
