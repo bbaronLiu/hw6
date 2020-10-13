@@ -5,8 +5,8 @@ console.log("Baron's Output from HW 6 Question 2");
 
 const displayText400 = () => {
     document.getElementsByName('400level').forEach(function(ele, idx) {
-        console.log(ele)
-    )}
+        console.log(ele))
+    }
 };
 
 displayText400();
@@ -14,8 +14,8 @@ displayText400();
 const paragraphBoldYellow = () => {
     document.getElementsByName('submit').forEach(function(ele, idx) {
         ele.style.fontweight = 'bold';
-        ele.style.fontweight = "yellow";
-    )}
+        ele.style.fontweight = "yellow";)
+    }
 };
 
 paragraphBoldYellow();
