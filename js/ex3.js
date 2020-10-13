@@ -23,4 +23,4 @@ const words = [{
     }
 }                              
 
-document.getElementById("content").innerHTML = 'parsed';
+document.getElementById("content").innerHTML = parsed;
