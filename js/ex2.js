@@ -42,7 +42,7 @@ paragraphBoldYellow();
 //link finally works so that's good, but I'm having difficulty making a new line when appending so also hard coding that too
 const addLink = () => {
     var a = document.createElement('a');
-    var link = document.createTextNode("This is link"); 
+    var link = document.createTextNode("College of Business"); 
     a.appendChild(link);
     a.title = "College of Business"; 
     a.href = "https://www.csulb.edu/college-of-business"; 
