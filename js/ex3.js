@@ -21,7 +21,6 @@ const words = [{
     for (var property in myobj) {
         parsed += property + ": " + myobj[property] + "\n";          
     }
-}                           
-$("#display").val(parsed);   
+}                              
 
-document.getElementById("content").innerHTML = 'words';
+document.getElementById("content").innerHTML = 'parsed';
