@@ -15,6 +15,7 @@ const words = [{
     definition: "figure of speech that juxtaposes elements that appear to be contradictory"
   }];
   
+  var parsed = "";
   for (i = 0; i< words.length; i++) {
     var myobj=  words[i];
     for (var property in myobj) {
